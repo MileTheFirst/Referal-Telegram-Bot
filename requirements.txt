@@ -1,0 +1,8 @@
+aiogram==3.2.0
+aiohttp
+asyncpg
+python-dotenv
+apscheduler
+yookassa
+langid
+boto3

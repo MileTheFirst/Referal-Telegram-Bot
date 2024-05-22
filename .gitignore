@@ -1,0 +1,6 @@
+venv
+for_develop.txt
+*/__pycache__
+Files/Products
+Files/last_tariff_check_date.pickle
+.env

@@ -1,0 +1,27 @@
+
+run psql container:
+docker run -d --name psql_cont -e POSTGRES_PASSWORD=... -e PGDATA=/var/lib/postgresql/data/pgdata -v psql_data:/var/lib/postgresql/data --net botnet -p 5432:5432 postgres 
+psql:
+docker exec -it psql_cont psql -U postgres -d bot_database
+volume:
+docker volume create psql_data
+
+network:
+docker network create botnet
+
+run ngrok cpntainer:
+docker run -it --net botnet -e NGROK_AUTHTOKEN=... --name ngrok_cont ngrok/ngrok http bot_cont:8080
+
+
+run bot container:
+docker run -it --net botnet -p 8080:8080 --env-file=.env -v $(pwd)/Files:/app/Files --name bot_cont bot_image
+
+
+often:
+docker rm cont_name
+docker rmi cont_name
+docker build -t image_name .
+
+
+
+installation:

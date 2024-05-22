@@ -1,0 +1,839 @@
+{
+    "en": {
+        "answers": {
+            "withdrawal_router": {
+                "cancel": {
+                    "creating_withdrawal": "You canceled creation of a bonus withdrawal request"
+                },
+                "not_correct": {
+                    "amount": "Not correct amount. Try again or "
+                },
+                "write_amount": "Write amount of bonuses for withdrawal",
+                "write_bank_card_number": "Write bank card number or ",
+                "request_added": "Request was added. Moderators will process it a few moments later",
+                "del": "Withdrawal request was deleted",
+                "no_withdrawals": "You don't have any withdrawal requests. Menu: "
+            },
+            "admin_router": {
+                "cancel": {
+                    "creating_n_f_h_a": "You canceled creation new free head account",
+                    "attaching_acc": "You canceled attaching account"
+                },
+                "not_correct": {
+                    "attach_acc": "Account can't be attached"
+                },
+                "write_db_query": "Write database query",
+                "send_custom_message": "Send custom notify message",
+                "service_a_m": "Service accounts manager",
+                "free_h_a_m": "Free head accounts manager",
+                "support_a_m": "Support accounts manager",
+                "restart_tasks": "Tasks restarted",
+                "f_h_a_created": "Free head account was created",
+                "s_a_created": "Support account was created",
+                "attach_acc": "Write an attaching account id or ",
+                "acc_attached": "Account was attached",
+                "acc_detached": "Account was detached",
+                "write_withdrawal_filter": "Write withdrawals filter in format: <id>,<user_id>,<moderator_id>,<status>. To skip certain parameter use sign '*'",
+                "write_moderation_filter": "Write moderations filter in format: <catalog_id>,<moderator_id>,<status>. To skip certain parameter use sign '*'"
+            },
+            "manage_catalog_router": {
+                "cancel": {
+                    "adding_catalog": "You canceled adding a catalog",
+                    "edit_mailing": "You canceled editing mailing",
+                    "edit_photo": "You cancel editing catalog photo"
+                },
+                "not_correct": {
+                    "add_catalog_1": "You can not add more than ",
+                    "add_catalog_2": " catalogs using the current tariff. Change tariff",
+                    "name": "Not correct name for catalog. Try again"
+                },
+                "add_write_name": "Enter the name of the catalog, it should be common for all your future products (1-2 words)",
+                "edit_photo": "Send one photo for your catalog, it should be common for all your products and reflect their essence, it can be your brand or logo.",
+                "photo_edited": "Catalog photo was edited",
+                "catalog_sent_t_m": "Catalog was sent to moderaton",
+                "catalog_added": "Catalog was added",
+                "catalog_deleted": "Catalog was deleted",
+                "publish_catalog_base": "Your catalog has been published and is already visible in the search. To activate the search function and access advanced promotion features, upgrade to the 'Advanced' plan. Also, invite users through your link and earn bonuses (which can be used to pay for plans or withdrawn to a card)",
+                "publish_catalog": "Your catalog has been published. Check out other plans for more advanced promotion features. Also, don't forget to invite other users through your link to accumulate bonuses",
+                "edit_mailing_interval": "Write a mailing interval in days",
+                "edited_mailing_interval": "Mailing interval was edited",
+                "edit_next_mailing_date": "Write an interval to date that you want in format: days%hours",
+                "edited_next_mailing_date": "Next mailing date was edited",
+                "rm_from_moderation_catalog":"Catalog was removed from moderation",
+                "rm_from_publication_catalog":"Catalog was removed from publication"
+            },
+            "manage_product_router": {
+                "cancel": {
+                    "edit_product": "You canceled editing product",
+                    "add_product": "You canceled adding a product"
+                },
+                "not_correct": {
+                    "add_product_1": "You can not add more than ",
+                    "add_product_2": " products using the current tariff. Change tariff",
+                    "product_name": "Not correct product name. Try again",
+                    "product_desc": "Not correct product description. Try again"
+                },
+                "add_product": {
+                    "write_name": "Write a product name or ",
+                    "write_desc": "Write a description with name, links and search tags (like: #tag1, #tag2) or ",
+                    "send_photo": "Send photo (if you have several of them, send one at a time) or ",
+                    "send_next_photo": "Send next photo or ",
+                    "product_added": "Your new product has been added, now you need to return to the catalog menu and submit it for moderation. If your plan allows adding more products, first add them, and then submit the entire catalog for moderation - this will speed up the review and subsequent publication of the catalog"
+                },
+                "edit_product": {
+                    "name_edited": "Product name was edited",
+                    "desc_edited": "Product description was edited",
+                    "photo_added": "Photo was added",
+                    "photo_deleted": "Photo was deleted"
+                },
+                "product_deleted": "Product was deleted"
+            },
+            "special_router": {
+                "choose_cat": "Choose a category for product: ",
+                "chose_cat": "You chose a category for product: ",
+                "choose_search_cat": "Choose a category to filter products: ",
+                "chose_search_cat": "You chose a category to filter: "
+            },
+            "auth_routers": {
+                "cancel": {
+                    "reg": "You canceled registration. Tap /start",
+                    "reg_w_ref": "You canceled registration. Your ref link is lost. Please, go back to the bot by link and write start command"
+                },
+                "start": "Hi! To continue we need to registrate you",
+                "start_w_ref": "Hi! To continue we need to registrate you",
+                "reg_completed": "You have successfully registered in the system. By using the bot, you agree to our rules - press /menu to review them."
+            },
+            "common_router": {
+                "choose_language": "Language has changed",
+                "my_catalogs": "My catalogs: "
+            },
+            "support_router": {
+                "moderate_catalogs": "Catalogs to moderate: ",
+                "moderate_withdrawals": "Withdrawal requests to moderate: ",
+                "catalog_approved": "Catalog was approved",
+                "catalog_rejected": "Catalog was rejected",
+                "user_blocked": "User was blocked",
+                "finish_withdrawal": "Withdrawal was finished",
+                "reject_withdrawal": "Withdrawal request was rejected"
+            },
+            "tariff_router": {
+                "cancel": {
+                    "buying_tariff": "You canceled buying tariff"
+                },
+                "error": {
+                    "buying_tariff": "Error. Tariff was not purchased"
+                },
+                "cancel_buy_tariff": "To cancel buying: ",
+                "buy_tariff_1": "You want to buy tariff: ",
+                "buy_tariff_2": "Choose payment method: ",
+                "tariff_bought": "Tariff was purchased",
+                "tariff_activated": "Tariff was activated"
+            },
+            "view_router": {
+                "view_my_catalog": "", 
+                "product_menu": "Product menu: "
+            },
+            "user_router": {
+                "ref_link_gened": "Ref link was generated",
+                "started_waiting_attach": "Your account is waiting for attaching",
+                "stoped_waiting_attach": "Waiting for attaching stoped"
+            },
+            "error_router": {
+                "h_t_log_in": "You have to log in. Tap /start",
+                "already_started": "You have already started. Tap /menu"
+            },
+            "search_router": {
+                "cancel": {
+                    "search_products": "You canceled searching products"
+                },
+                "write_query": "Write your query",
+                "found_products": "Search results: ",
+                "base_tariff": "The search function is available starting from the 'Advanced' tariff; you can activate a trial period of this tariff or choose another one"
+            },
+            "errors": {
+                "smth": "Something went wrong",
+                "smth_t_s_f": "Something went wrong. Try smaller photo",
+                "smth_t_a": "Something went wrong. Try again",
+                "query_not_processed": "Query was not processed"
+            },
+            "menus": {
+                "menu": "Menu: ",
+                "tech_menu": "Technical menu: ",
+                "s_l_menu": "Stat and lists menu: "
+            },
+            "cancel_operation": "You canceled operation",
+            "blocked": "You are blocked. To unblock activate or reactivate a VIP tariff",
+            "blocked_w_a": "You are waiting for attaching account. Some functions are not available"
+        },
+        "keyboards": {
+            "often": {
+                "cancel": "Cancel",
+                "back": "Back",
+                "edit": "Edit",
+                "del": "Delete",
+                "continue": "Continue",
+                "choose": "Choose",
+                "view": "View",
+                "finish": "Finish",
+                "reject": "Reject",
+                "create": "Create"
+            },
+            "main_menu": {
+                "my_catalogs": "My catalogs",
+                "view_ref_s": "View ref stat",
+                "search_products": "Search products",
+                "account": "Account",
+                "rules": "Rules",
+                "support": "Support",
+                "manual": "Manual"
+            },
+            "catalogs": {
+                "add_catalog": "Add catalog"
+            },
+            "products": {
+                "finish_adding_photos": "Finish adding photos"
+            },
+            "admin_router": {
+                "admin_main_menu": {
+                    "service_acc_man": "Service accounts manager",
+                    "technical_menu": "Technical menu",
+                    "s_l_menu": "Stat and lists menu"
+                },
+                "stat_lists_menu": {
+                    "withdrawal_list": "Withdrawals list",
+                    "moderation_list": "Moderations list",
+                    "traffic_sources": "Traffic sources stat"
+                },
+                "technical_menu": {
+                    "restart_per_tasks": "Restart permanent tasks",
+                    "bot_block_alert": "Bot blocking alert",
+                    "bot_started_notify": "Bot started notify",
+                    "custom_notify": "Custom notification",
+                    "block_bot": "Block bot",
+                    "unblock_bot": "Unblock bot",
+                    "db_query": "Database query"  
+                },
+                "service_acc_manager": {
+                    "free_h_a_m": "Free head accounts manager",
+                    "support_a_m": "Support accounts manager"
+                },
+                "head_acc_manager": {
+                    "f_h_a": "Free head account",
+                    "add_new_h_a": "Add new head account"
+                },
+                "support_acc_manager": {
+                    "s_a": "Support account", 
+                    "add_new_s_a": "Add new support account"
+                },
+                "attach_acc": "Attach account",
+                "detach_acc": "Detach account"
+            },
+            "user_router": {
+                "user_main_menu": {
+                    "tariffs": "Tariffs",
+                    "withdrawal": "Withdrawal"
+                },
+                "ref_link": {
+                    "gen": "Generate ref link"
+                }
+            },
+            "support_router": {
+                "support_main_menu": {
+                    "moderate_catalogs": "Moderate catalogs",
+                    "moderate_withdrawals": "Moderate withdrawals"
+                },
+                "moderate_catalog_menu": {
+                    "approve": "Approve catalog",
+                    "reject": "Reject catalog"
+                }
+            },
+            "tariff_router": {
+                "tariff_menu": {
+                    "buy_month": "Buy month",
+                    "buy_year": "Buy year", 
+                    "activate": "Activate"
+                },
+                "pay_method_menu": {
+                    "bonuses": "Bonuses",
+                    "others": "Others"
+                },
+                "buy": "Buy"
+            },
+            "view_router": {
+                "view_my_catalog_menu": {
+                    "edit_catalog_next_mailing_date": "Edit catalog next mailing date",
+                    "edit_catalog_mailing_interval": "Edit catalog mailing interval",
+                    "publish": "Publish",
+                    "send_to_mod": "Send to moderation",
+                    "rm_from_mod": "Remove from moderation",
+                    "rm_from_pub": "Remove from publication",
+                    "del_catalog": "Delete catalog",
+                    "add_product": "Add product",
+                    "edit_photo": "Edit catalog photo"
+                },
+                "view_my_product_menu": {
+                    "edit": "Edit product",
+                    "delete": "Delete product"
+                }
+            },
+            "manage_product_router": {
+                "edit_product_menu": {
+                    "add_photo": "Add photo"
+                }
+            },
+            "base_acc_menu": {
+                "language": "Language",
+                "wait_attach": "Wait for attaching account",
+                "stop_wait_attach": "Stop wait for attaching account",
+                "enable_award_notifications": "Enable award notifications",
+                "disable_award_notifications": "Disable award notifications"
+            }
+        },
+        "texts": {
+            "withdrawal_text": {
+                "withdrawal": "Creating a request for withdrawal of bonuses.",
+                "your_withdrawal": "Your withdrawal request: ",
+                "amount": "Withdrawal amount: ",
+                "id": "Withdrawal id: ",
+                "min_amount": "Min amount: ",
+                "bank_card_number": "Bank card number: "
+            },
+            "ref_stat_text": {
+                "line": "line ",
+                "amount": "Amount: ",
+                "ref_description": "Inviting users through your referral link earns you 2.5 bonuses for each new user, as well as 1.25 bonuses from those they invite, and so on. Thus, once you initiate this process, bonuses will be continually credited to you, which you can use to promote your catalogs or simply withdraw to your card"
+            },
+            "acc_text":  {
+                "login": "Login: ",
+                "bonuses": "Bonuses: ",
+                "your_bonuses": "Your bonuses: ",
+                "f_h_a_menu": "Free account menu: ",
+                "s_a_menu": "Support account menu: ",
+                "id": "ID: ",
+                "telegram_id": "Telegram ID: ",
+                "acc_settings": "Account settings: ",
+                "tariff_1": "Your tariff is ",
+                "tariff_2": "List of tariffs: "
+            },
+            "language_text": {
+                "language": "Language: ",
+                "l_m": "Language menu: "
+            },
+            "catalog_text": {
+                "owner": "Owner: ",
+                "status": "Status: ",
+                "products_in": "Products in ",
+                "catalog": "Catalog ",
+                "next_mailing_date": "Next mailing date: ",
+                "mailing_interval": "Mailing interval: "
+            },
+            "date_text": {
+                "days": " days ",
+                "hours": " hours ",
+                "mins": " minutes "
+            },
+            "product_text": {
+                "name": "Name: ",
+                "cat": "Category: ",
+                "desc": "Description: "
+            },
+            "tariff_text": {
+                "tariff": "Tariff ",
+                "tariff:": "Tariff: ",
+                "price_p_m": "Price per month: ",
+                "price_p_y": "Price per year: ",
+                "price": "Price: ",
+                "free": "Free",
+                "remains": "Remains: ",
+                "descriptions": {
+                    "base": "With the basic tariff, you can create 1 catalog, add 1 product or service, and send 1 newsletter every 2 weeks to your subscribers from the first line. There is no search function and no limitations on newsletters from upper lines.",
+                    "advanced": "With the advanced tariff, you can create 1 catalog, add 5 products or services, and send 1 newsletter per week to your subscribers from lines 1-3. Additionally, you get product and service search across the system and restrictions on newsletters from the top three lines.",
+                    "business": "With the business tariff, you can create 3 catalogs, add 20 products or services, and send 3 newsletters per week to your subscribers from lines 1-5. You also get product and service search across the system and restrictions on newsletters from the top five lines.",
+                    "premium": "With the premium tariff, you can create 5 catalogs, add 100 products or services, and send 5 newsletters per week to your subscribers from lines 1-20. You also get product and service search across the system and restrictions on newsletters from the top twenty lines.",
+                    "vip": "With the VIP tariff, you can create 10 catalogs, add 500 products or services, and send 1 newsletter per day to your subscribers from all lines. You also get product and service search across the system and restrictions on newsletters from all top lines."
+                }
+            },
+            "mailing_text": {
+                "text": "Ad from ",
+                "admin_text": "Ad from GoodsAds: "
+            },
+            "invoice_buy_tariff_text": {
+                "title": "Buy tariff "
+            },
+            "resources_text": {
+                "output_format_res": "<source> : <users_amount> ",
+                "output_format_block": "<blocking> : <users_amount> "
+            },
+            "notifications": {
+                "catalog_approved": "Your catalog has been approved. Go to your catalog menu and press publish. Catalog name: ",
+                "catalog_rejected": "Your catalog has been rejected. Catalog name: ",
+                "blocking": "You are blocked. Contact technical support for more information. To unblock activate or reactivate a VIP tariff",
+                "your_withdrawal_rejected": "Your withdrawal request was rejected. Withdrawal request id: ",
+                "withdrawal_finished": "Your request was accepted. Withdrawal was finished. Withdrawal request id: ",
+                "bot_block_alert": "Bot will be blocked for maintenance work a few minutes later!!!!!",
+                "bot_blocked": "Bot was blocked for maintenance work!!!!!",
+                "bot_unblocked": "Bot was unblocked!!!!! Use it as you will",
+                "bot_started": "Bot started!!!!! Use it as you will",
+                "new_award": "You have been awarded. The amount of bonuses: "
+            },
+            "ref_link": "Ref link: ",
+            "statuses": {
+                "not_published": "Not published",
+                "approved": "Approved",
+                "rejected": "Rejected",
+                "under_moderation": "Under moderation",
+                "published": "Published"
+            },
+            "tariffs": {
+                "vip": "VIP",
+                "advanced": "Advanced",
+                "business": "Business",
+                "premium": "Premium",
+                "base": "Base"
+            }
+        },
+        "commands": {
+            "menu": "menu"
+        },
+        "words": {
+            "categories": {
+                "goods": "Goods",
+                "services": "Services",
+                "main_cat": "Main"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    "ru": {
+        "answers": {
+            "withdrawal_router": {
+                "cancel": {
+                    "creating_withdrawal": "Вы отменили создание заявки на вывод бонусов"
+                },
+                "not_correct": {
+                    "amount": "Некорректная сумма. Попробуйте снова или "
+                },
+                "write_amount": "Напишите сумму бонусов для вывода",
+                "write_bank_card_number": "Напишите номер банковской карты или ", 
+                "request_added": "Заявка создана. Модераторы обработают её в ближайшее время",
+                "del": "Заявка на вывод удалена",
+                "no_withdrawals": "У вас нет заявок на вывод бонусов. Меню: "
+            },
+            "admin_router": {
+                "cancel": { 
+                    "creating_n_f_h_a": "Вы отменили создание свободного аккаунта первой линии",
+                    "attaching_acc": "Вы отменили присоединение аккаунта"
+                },
+                "not_correct": {
+                    "attach_acc": "Аккаунт не может быть присоединён"
+                },
+                "write_db_query": "Напишите запрос к базе данных",
+                "send_custom_message": "Пришлите сообщение-оповещение",
+                "service_a_m": "Управление служебными аккаунтами",
+                "free_h_a_m": "Управление свободными аккаунтами первой линии",
+                "support_a_m": "Управление аккаунтами тех-поддержки",
+                "restart_tasks": "Програмные задачи перезапущены",
+                "f_h_a_created": "Свободный аккаунт первой линии был создан",
+                "s_a_created": "Аккаунт тех-поддержки был создан",
+                "attach_acc": "Напишите ID присоединяемого аккаунта или",
+                "acc_attached": "Аккаунт присоединён",
+                "acc_detached": "Аккаунт отсоединён",
+                "write_withdrawal_filter": "Напишите фильтр записей выводов в формате: <id>,<user_id>,<moderator_id>,<status>. Для пропуска конкретного параметра используйте знак '*'",
+                "write_moderation_filter": "Напишите фильтр списка модераций в формате: <catalog_id>,<moderator_id>,<status>. Для пропуска конкретного параметра используйте знак '*'"
+            },
+            "manage_catalog_router": {
+                "cancel": {
+                    "adding_catalog": "Вы отменили добавление каталога",
+                    "edit_mailing": "Вы отменили редактирование рассылки",
+                    "edit_photo": "Вы отменили редактирование фото каталога"
+                },
+                "not_correct": {
+                    "add_catalog_1": "Вы не можете добавить больше, чем ",
+                    "add_catalog_2": " каталогов, используя текущий тариф. Смените тариф",
+                    "name": "Некорректное название для каталога. Попробуйте снова"
+                },
+                "add_write_name": "Введите название каталога, оно должно быть общим для всех ваших будущих товаров (1-2 слова)",
+                "edit_photo": "Отправьте одно фото для вашего каталога, оно должно быть общим для всех ваших товаров и отражать их суть, это может быть ваша торговая марка или логотип",
+                "photo_edited": "Фото каталога обновлено",
+                "catalog_sent_t_m": "Каталог отправлен на модерацию",
+                "catalog_added": "Каталог добавлен",
+                "catalog_deleted": "Каталог удалён",
+                "publish_catalog_base": "Ваш каталог опубликован и уже виден на поиске, для активации функции поиска и расширенного функционала продвижения подключите тариф: «Продвинутый». Так же приглашайте пользователей по своей ссылке и получайте бонусы (их можно использовать на оплату тарифов или вывести на карту)",
+                "publish_catalog": "Ваш каталог опубликован. Ознакомьтесь с другими тарифами для более расширенного функционала продвижения. Так же не забывайте приглашать других пользователей по своей ссылке для накопления бонусов",
+                "edit_mailing_interval": "Укажите интервал рассылки в днях",
+                "edited_mailing_interval": "Интервал рассылки изменён",
+                "edit_next_mailing_date": "Укажите промежуток от настоящего времени до даты следующей рассылки в формате: дни%часы",
+                "edited_next_mailing_date": "Дата следующей рассылки изменена",
+                "rm_from_moderation_catalog":"Каталог снят с модерации",
+                "rm_from_publication_catalog":"Каталог снят с публикации"
+            },
+            "manage_product_router": {
+                "cancel": {
+                    "edit_product": "Вы отменили редактирование продукта",
+                    "add_product": "Вы отменили добавление продукта"
+                },
+                "not_correct": {
+                    "add_product_1": "Вы не можете добавить больше, чем ",
+                    "add_product_2": " продуктов, используя текущий тариф. Смените тариф",
+                    "product_name": "Некорректное название продукта. Попробуйте снова",
+                    "product_desc": "Некорректное описание продукта. Попробуйте снова"
+                },
+                "add_product": {
+                    "write_name": "Напишите название продукта или ",
+                    "write_desc": "Напишите описание продукта с названием, ссылками и тегами для поиска (по типу: #тег1, #тег2 и т.д.) или ",
+                    "send_photo": "Отправьте фото (если у вас их несколько, отправляйте по одному) или ",
+                    "send_next_photo": "Отправьте следующее фото или ",
+                    "product_added": "Ваш новый продукт добавлен, теперь необходимо вернуться в меню каталога и отправить его на модерацию. Если ваш тариф позволяет добавить еще продукты, то сначала добавьте их, а потом весь каталог отправьте на модерацию - это ускорит время проверки и дальнейшей публикации каталога"
+                },
+                "edit_product": {
+                    "name_edited": "Название продукта изменено",
+                    "desc_edited": "Описание продукта изменено",
+                    "photo_added": "Фото добавлено",
+                    "photo_deleted": "Фото удалено"
+                },
+                "product_deleted": "Продукт удалён"
+            },
+            "special_router": {
+                "choose_cat": "Выберите категорию для продукта: ",
+                "chose_cat": "Вы выбрали категорию для продукта: ",
+                "choose_search_cat": "Выберите категорию для фильтра поиска продуктов: ",
+                "chose_search_cat": "Вы выбрали категорию для фильтра: "
+            },
+            "auth_routers": {
+                "cancel": {
+                    "reg": "Вы отменили регистрацию. Нажмите /start",
+                    "reg_w_ref": "Вы отменили регистрацию. Реферальная ссылка потеряна. Пожалуйста, снова зайдите в бота по ссылке и напишите вручную стартовую команду"
+                },
+                "start": "Привет! Для продолжения мы должны зарегистрировать вас",
+                "start_w_ref": "Привет! Для продолжения мы должны зарегистрировать вас",
+                "reg_completed": "Вы успешно зарегистрированы в системе. Используя бота, вы соглашаетесь с нашими правилами - нажмите /menu и ознакомьтесь с ними"
+            },
+            "common_router": {
+                "choose_language": "Язык изменён",
+                "my_catalogs": "Мои каталоги: "
+            },
+            "support_router": {
+                "moderate_catalogs": "Каталоги для модерации: ",
+                "moderate_withdrawals": "Заявки на вывод бонусов для модерации:  ",
+                "catalog_approved": "Каталог одобрен",
+                "catalog_rejected": "Каталог отклонён",
+                "user_blocked": "Пользователь заблокирован",
+                "finish_withdrawal": "Вывод бонусов завершён",
+                "reject_withdrawal": "Вывод бонусов отклонён"
+            },
+            "tariff_router": {
+                "cancel": {
+                    "buying_tariff": "Вы отменили покупку тарифа"
+                },
+                "error": {
+                    "buying_tariff": "Ошибка. Тариф не приобретён"
+                },
+                "cancel_buy_tariff": "Чтобы отменить покупку: ",
+                "buy_tariff_1": "Вы хотите приобрести тариф: ",
+                "buy_tariff_2": "Выберите способ оплаты: ",
+                "tariff_bought": "Тариф приобретён",
+                "tariff_activated": "Тариф активирован"
+            },
+            "view_router": { 
+                "product_menu": "Меню продукта: "
+            },
+            "user_router": {
+                "ref_link_gened": "Реферальная ссылка сгенерирована",
+                "started_waiting_attach": "Ваш аккаунт в ожидании присоединения",
+                "stoped_waiting_attach": "Присоединение аккаунта отменено"
+            },
+            "error_router": {
+                "h_t_log_in": "Вы должны авторизоваться. Нажмите /start",
+                "already_started": "Вы уже авторизовались. Нажмите /menu"
+            },
+            "search_router": {
+                "cancel": {
+                    "search_products": "Вы отменили поиск продуктов"
+                },
+                "write_query": "Напишите свой запрос",
+                "found_products": "Результат поиска: ",
+                "base_tariff": "Поиск работает начиная с тарифа: «Продвинутый», вы можете подключить триал период этого тарифа или выбрать другой"
+            },
+            "errors": {
+                "smth": "Что-то пошло не так",
+                "smth_t_s_f": "Что-то пошло не так. Попробуйте фото меньшего размера",
+                "smth_t_a": "Что-то пошло не так. Попробуйте снова",
+                "query_not_processed": "Запрос не обработан"
+            },
+            "menus": {
+                "menu": "Меню: ",
+                "tech_menu": "Техническое меню: ",
+                "s_l_menu": "Меню статистики и списков: "
+            },
+            "cancel_operation": "Вы отменили операцию",
+            "blocked": "Вы заблокированы. Для разблокировки активируйте или реактивируйте тариф VIP",
+            "blocked_w_a": "Вы в ожидании присоединения аккаунта. Некоторые функции не доступны"
+        },
+        "keyboards": {
+            "often": {
+                "cancel": "Отмена",
+                "back": "Назад",
+                "edit": "Редактировать",
+                "del": "Удалить",
+                "continue": "Продолжить",
+                "choose": "Выбрать",
+                "view": "Смотреть",
+                "finish": "Завершить",
+                "reject": "Отклонить",
+                "create": "Создать"
+            },
+            "main_menu": {
+                "my_catalogs": "Мои каталоги",
+                "view_ref_s": "Посмотреть реферальную статистику",
+                "search_products": "Поиск продуктов",
+                "account": "Аккаунт",
+                "rules": "Правила",
+                "support": "Поддержка",
+                "manual": "Инструкции"
+            },
+            "catalogs": {
+                "add_catalog": "Добавить каталог"
+            },
+            "products": {
+                "finish_adding_photos": "Закончить добавление фото"
+            },
+            "admin_router": {
+                "admin_main_menu": {
+                    "service_acc_man": "Управление служебными аккаунтами",
+                    "technical_menu": "Техническое меню",
+                    "s_l_menu": "Меню статистики и списков"
+                },
+                "stat_lists_menu": {
+                    "withdrawal_list": "Список выводов бонусов",
+                    "moderation_list": "Список модераций",
+                    "traffic_sources": "Статистика источников трафика"
+                },
+                "technical_menu": {
+                    "restart_per_tasks": "Перезапустить перманентные програмные задачи",
+                    "bot_block_alert": "Оповестить о блокировке бота",
+                    "bot_started_notify": "Оповестить о включении бота",
+                    "custom_notify": "Новое уведомление",
+                    "block_bot": "Заблокировать бота",
+                    "unblock_bot": "Разблокировать бота",
+                    "db_query": "Запрос к базе данных"       
+                },
+                "service_acc_manager": {
+                    "free_h_a_m": "Управление свободными аккаунтами первой линии",
+                    "support_a_m": "Управление аккаунтами тех-поддержки"
+                },
+                "head_acc_manager": {
+                    "f_h_a": "Свободный аккаунт",
+                    "add_new_h_a": "Добавить новый свободный аккаунт"
+                },
+                "support_acc_manager": {
+                    "s_a": "Аккаунт тех-поддержки", 
+                    "add_new_s_a": "Добавить новый аккаунт тех-поддержки"
+                },
+                "attach_acc": "Присоединить аккаунт",
+                "detach_acc": "Отсоединить аккаунт"
+            },
+            "user_router": {
+                "user_main_menu": {
+                    "tariffs": "Тарифы",
+                    "withdrawal": "Вывод бонусов"
+                },
+                "ref_link": {
+                    "gen": "Сгенирировать реферальную ссылку"
+                }
+            },
+            "support_router": {
+                "support_main_menu": {
+                    "moderate_catalogs": "Модерировать каталоги",
+                    "moderate_withdrawals": "Модерировать заявки на вывод"
+                },
+                "moderate_catalog_menu": {
+                    "approve": "Одобрить каталог",
+                    "reject": "Отклонить каталог"
+                }
+            },
+            "tariff_router": {
+                "tariff_menu": {
+                    "buy_month": "Оплатить месяц",
+                    "buy_year": "Оплатить год", 
+                    "activate": "Активировать"
+                },
+                "pay_method_menu": {
+                    "bonuses": "Бонусы",
+                    "others": "Другие (картой)"
+                },
+                "buy": "Купить"
+            },
+            "view_router": {
+                "view_my_catalog_menu": {
+                    "edit_catalog_next_mailing_date": "Изменить дату следующей рассылки",
+                    "edit_catalog_mailing_interval": "Изменить интервал рассылки",
+                    "publish": "Опубликовать",
+                    "send_to_mod": "Отправить на модерацию",
+                    "rm_from_mod": "Снять с модерации",
+                    "rm_from_pub": "Снять с публикации",
+                    "del_catalog": "Удалить каталог",
+                    "add_product": "Добавить продукт",
+                    "edit_photo": "Обновить фото каталога"
+                },
+                "view_my_product_menu": {
+                    "edit": "Редактировать продукт",
+                    "delete": "Удалить продукт"
+                }
+            },
+            "manage_product_router": {
+                "edit_product_menu": {
+                    "add_photo": "Добавить фото"
+                }
+            },
+            "base_acc_menu": {
+                "language": "Язык",
+                "wait_attach": "Ожидать присоединения аккаунта",
+                "stop_wait_attach": "Остановить присоединение аккаунта",
+                "enable_award_notifications": "Включить уведомления о вознаграждении",
+                "disable_award_notifications": "Выключить уведомления о вознаграждении"
+            }
+        },
+        "texts": {
+            "withdrawal_text": {
+                "withdrawal": "Создание заявки на вывод бонусов.",
+                "your_withdrawal": "Ваша заявка на вывод бонусов: ",
+                "amount": "Сумма вывода: ",
+                "id": "ID заявки: ",
+                "min_amount": "Минимальная сумма: ",
+                "bank_card_number": "Номер банковской карты: "
+                },
+            "ref_stat_text": {
+                "line": "линия ",
+                "amount": "Всего: ",
+                "ref_description": "Приглашая по своей ссылке вы получаете по 2,5 бонуса с каждого нового пользователя, так же по 1,25 с тех кого пригласят они и т.д. Таким образом однажды запустив этот процесс вам постоянно будут начисляться бонусы, которые вы сможете использовать для продвижения своих каталогов или просто вывести себе на карту"
+            },
+            "acc_text":  {
+                "login": "Логин: ",
+                "bonuses": "Бонусы: ",
+                "your_bonuses": "Ваши бонусы: ",
+                "f_h_a_menu": "Меню свободного аккаунта: ",
+                "s_a_menu": "Меню аккаунта тех-поддержки: ",
+                "id": "ID: ",
+                "telegram_id": "Телеграм ID: ",
+                "acc_settings": "Настройки аккаунта: ",
+                "tariff_1": "Ваш тариф: ",
+                "tariff_2": "Список тарифов: "
+            },
+            "language_text": {
+                "language": "Язык: ",
+                "l_m": "Меню языка: "
+            },
+            "catalog_text": {
+                "owner": "Владелец: ",
+                "status": "Статус: ",
+                "products_in": "Продукты в ",
+                "catalog": "Каталог ",
+                "next_mailing_date": "Дата следующей рассылки: ",
+                "mailing_interval": "Интервал рассылок: "
+            },
+            "date_text": {
+                "days": " дней ",
+                "hours": " часов ",
+                "mins": " минут "
+            },
+            "product_text": {
+                "name": "Имя: ",
+                "cat": "Категория: ",
+                "desc": "Описание: "
+            },
+            "tariff_text": {
+                "tariff": "Тариф ",
+                "tariff:": "Тариф: ",
+                "price_p_m": "Цена за месяц: ",
+                "price_p_y": "Цена за год: ",
+                "price": "Цена: ",
+                "free": "Бесплатно",
+                "remains": "Осталось: ",
+                "descriptions": {
+                    "base": "На базовом тарифе вы можете создать 1 каталог с добавлением 1 товара или услуги, с рассылкой 1 раз в 2 недели своим подписчикам из первой линии. Здесь нет функции поиска и ограничения рассылок от верхних линий.",
+                    "advanced": "На продвинутом тарифе вы можете создать 1 каталог с добавлением 5 товаров или услуг, с рассылкой 1 раз в неделю своим подписчикам с 1-3 линии. Так же добавляется поиск товаров и услуг по всей системе и ограничение рассылок вам от верхних трех линий.",
+                    "business": "На тарифе бизнес вы можете создать 3 каталога с добавлением 20 товаров или услуг, с рассылкой 3 раза в неделю своим подписчикам с 1-5 линии. Так же добавляется поиск товаров и услуг по всей системе и ограничение рассылок вам от верхних пяти линий.",
+                    "premium": "На тарифе премиум вы можете создать 5 каталогов с добавлением 100 товаров или услуг, с рассылкой 5 раз в неделю своим подписчикам с 1-20 линии. Так же добавляется поиск товаров и услуг по всей системе и ограничение рассылок вам от верхних двадцати линий.",
+                    "vip": "На тарифе VIP вы можете создать 10 каталогов с добавлением 500 товаров или услуг, с рассылкой 1 раз в день своим подписчикам со всех линии. Так же добавляется поиск товаров и услуг по всей системе и ограничение рассылок вам от всех верхних линий."
+                }
+            },
+            "mailing_text": {
+                "text": "Реклама от ",
+                "admin_text": "Реклама от GoodsAdds: "
+            },
+            "invoice_buy_tariff_text": {
+                "title": "Купить тариф "
+            },
+            "resources_text": {
+                "output_format_res": "<источник> : <кол-во пользователей> ",
+                "output_format_block": "<блокировка> : <кол-во пользователей> "
+            },
+            "notifications": {
+                "catalog_approved": "Ваш каталог одобрен. Зайдите в меню своего каталога и нажмите опубликовать. Название каталога: ",
+                "catalog_rejected": "Ваш каталог отклонён. Название каталога: ",
+                "blocking": "Вы заблокированы. По вопросам свяжитесь с техподдержкой. Для разблокировки активируйте или реактивируйте тариф VIP",
+                "your_withdrawal_rejected": "Ваша заявка на вывод бонусов отклонена. ID заявки: ",
+                "withdrawal_finished": "Ваша заявка принята. Вывод бонусов завершён. ID заявки: ",
+                "bot_block_alert": "Через несколько минут бот будет заблокирован для проведения сервисных работ!!!!!",
+                "bot_blocked": "Бот заблокирован для сервисных работ!!!!!",
+                "bot_unblocked": "Бот разблокирован!!!!! Пользуйтесь на здоровье",
+                "bot_started": "Бот начал свою работу!!!!! Пользуйтесь на здоровье",
+                "new_award": "Вы были вознаграждены. Сумма бонусов: "
+            },
+            "ref_link": "Реферальная ссылка: ",
+            "statuses": {
+                "not_published": "Не опубликован",
+                "approved": "Одобрен",
+                "rejected": "Отклонён",
+                "under_moderation": "На модерации",
+                "published": "Опубликован"
+            },
+            "tariffs": {
+                "vip": "VIP",
+                "advanced": "Продвинутый",
+                "business": "Бизнес",
+                "premium": "Премиум",
+                "base": "Базовый"
+            }
+        },
+        "commands": {
+            "menu": "меню"
+        },
+        "words": {
+            "categories": {
+                "goods": "Товары",
+                "services": "Услуги",
+                "main_cat": "Главная"
+            }
+        }
+    }
+
+    
+
+    
+}
